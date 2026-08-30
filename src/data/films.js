@@ -1,0 +1,68 @@
+// Real works from the STUPID STUDIOS YouTube channel.
+const thumb = (id) => `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+
+export const films = [
+  {
+    id: 'gentlemen',
+    title: 'The Gentlemen',
+    genre: 'Tamil Short Film',
+    year: '2026',
+    duration: '42:36',
+    views: '828',
+    kind: 'Feature',
+    youtubeId: 'e40XjqLSdj4',
+    thumb: thumb('e40XjqLSdj4'),
+    url: 'https://www.youtube.com/watch?v=e40XjqLSdj4',
+    featured: true,
+  },
+  {
+    id: 'aval-naan-mazhai',
+    title: 'Aval Naan Mazhai',
+    genre: 'Romance',
+    year: '2025',
+    duration: '10:11',
+    views: '1.2K',
+    kind: 'Short Film',
+    youtubeId: 'NSDzi6Qi5qw',
+    thumb: thumb('NSDzi6Qi5qw'),
+    url: 'https://www.youtube.com/watch?v=NSDzi6Qi5qw',
+  },
+  {
+    id: 'thani-kaattu-raja',
+    title: 'Thani Kaattu Raja',
+    genre: 'Thriller',
+    year: '2025',
+    duration: '30:16',
+    views: '620',
+    kind: 'Short Film',
+    youtubeId: 'Y1unNE54y38',
+    thumb: thumb('Y1unNE54y38'),
+    url: 'https://www.youtube.com/watch?v=Y1unNE54y38',
+  },
+  {
+    id: 'gentlemen-trailer',
+    title: 'The Gentlemen — Trailer',
+    genre: 'Trailer',
+    year: '2026',
+    duration: '1:34',
+    views: '418',
+    kind: 'Trailer',
+    youtubeId: 's-EVuLhxCyQ',
+    thumb: thumb('s-EVuLhxCyQ'),
+    url: 'https://www.youtube.com/watch?v=s-EVuLhxCyQ',
+  },
+  {
+    id: 'aval-teaser',
+    title: 'Aval Naan Mazhai — Teaser',
+    genre: 'Teaser',
+    year: '2025',
+    duration: '1:02',
+    views: '439',
+    kind: 'Teaser',
+    youtubeId: 'TC45Dx9iEls',
+    thumb: thumb('TC45Dx9iEls'),
+    url: 'https://www.youtube.com/watch?v=TC45Dx9iEls',
+  },
+];
+
+export const CHANNEL_URL = 'https://www.youtube.com/@stupidstudio3686';
