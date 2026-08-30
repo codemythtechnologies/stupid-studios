@@ -1,9 +1,11 @@
 import { Youtube, Instagram, Mail } from 'lucide-react';
 import { CHANNEL_URL } from '@/data/films';
 
+const INSTAGRAM_URL = 'https://www.instagram.com/sri__srini/';
+
 const socials = [
   { icon: Youtube, label: 'YouTube', href: CHANNEL_URL },
-  { icon: Instagram, label: 'Instagram', href: CHANNEL_URL },
+  { icon: Instagram, label: 'Instagram', href: INSTAGRAM_URL },
   { icon: Mail, label: 'Email', href: 'mailto:sri20srini09@gmail.com' },
 ];
 

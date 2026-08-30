@@ -4,7 +4,7 @@ import { CHANNEL_URL } from '@/data/films';
 import { FadeUp } from './Reveal';
 
 const EMAIL = 'sri20srini09@gmail.com';
-const INSTAGRAM_URL = 'https://www.instagram.com/sri_srini/';
+const INSTAGRAM_URL = 'https://www.instagram.com/sri__srini/';
 
 const socials = [
   { icon: Youtube, label: 'YouTube', href: CHANNEL_URL },
